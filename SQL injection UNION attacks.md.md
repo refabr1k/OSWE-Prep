@@ -43,7 +43,7 @@ while(found == False):
 
 ```
 
-![[union_attacks_find_columns.png]]
+![](SQL%20Injection/screens/union_attacks_find_columns.png)
 
 
 ## 2 Finding columns with a useful data type
@@ -86,5 +86,5 @@ for i in range(count):
 		i=i+1
 ```
 
-![[union_attacks_find_string_type.png]]
+![](SQL%20Injection/screens/union_attacks_find_string_type.png)
 
