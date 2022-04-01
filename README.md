@@ -47,7 +47,7 @@ https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBn
 - [ ] \*\*Hackback
 - [ ] \*\*Holiday
 
-\* Windows<br>\*\* More challenging than OSWE but good practice
+\* *Windows*<br>\*\* *More challenging than OSWE but good practice*
 
 **VULNHUB**
 - [ ] [Silky-CTF: 0x02](https://www.vulnhub.com/entry/silky-ctf-0x02,307/)
@@ -59,4 +59,4 @@ https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBn
 - [ ] [Potato](https://www.vulnhub.com/entry/potato-1,529/)
 - [ ] \*\*[Secure Code 1](https://www.vulnhub.com/entry/securecode-1,651/)
 
-\*\*More challenging than OSWE but good practice
+\*\**More challenging than OSWE but good practice*
