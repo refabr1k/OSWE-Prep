@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL injection UNION attacks.md.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL injection UNION attacks.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,9 +87,10 @@
   },
   "active": "f07c52283f0904e8",
   "lastOpenFiles": [
-    "SQL injection UNION attacks.md.md",
     "README.md",
-    "SQL Injection/SQL injection UNION attacks.md.md",
-    "SQL Injection/screens/union_attacks_find_string_type.png"
+    "SQL Injection/screens/union_attacks_find_string_type.png",
+    "SQL Injection/screens/union_attacks_find_columns.png",
+    "SQL injection UNION attacks.md.md",
+    "SQL Injection/SQL injection UNION attacks.md.md"
   ]
 }
