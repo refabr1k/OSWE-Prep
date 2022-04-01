@@ -6,8 +6,8 @@ Familiarizing the following concepts. At the same time, I set out on a challenge
 [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 - [ ] SQL Injection (https://portswigger.net/web-security/sql-injection)
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
-	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic),
-	- [ ] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - Scripts [here](SQL%20injection%20UNION%20attacks.md.md)
+	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
+	- [ ] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - Scripts [here](SQL%20Injection/SQL%20injection%20UNION%20attacks.md)
 	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
 - [ ] XSS

@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -88,9 +88,10 @@
   "active": "f07c52283f0904e8",
   "lastOpenFiles": [
     "README.md",
+    "SQL Injection/SQL injection UNION attacks.md",
+    "SQL injection UNION attacks.md.md",
     "SQL Injection/screens/union_attacks_find_string_type.png",
     "SQL Injection/screens/union_attacks_find_columns.png",
-    "SQL injection UNION attacks.md.md",
     "SQL Injection/SQL injection UNION attacks.md.md"
   ]
 }
