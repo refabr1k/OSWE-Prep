@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "8621d191df7ca0ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "f07c52283f0904e8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5196b06a0f81ec4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fc114066f56032a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7e2396f8623b0d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "63ee0fcb2aab66f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e7d79c7ea78b66b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1130baf27b8bf90f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cebc2938df4b7352",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f07c52283f0904e8",
+  "lastOpenFiles": [
+    "README.md",
+    "SQL injection UNION attacks.md.md",
+    "SQL Injection/SQL injection UNION attacks.md.md",
+    "SQL Injection/screens/union_attacks_find_string_type.png"
+  ]
+}
