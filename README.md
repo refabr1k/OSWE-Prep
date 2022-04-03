@@ -23,7 +23,7 @@ Familiarizing the following concepts. At the same time, I set out on a challenge
 
 ## OWASP Juice-shop
 Gotta finish what I started too long ago!
-- [ ] clear all challenges in [Juice-shop](https://github.com/juice-shop/juice-shop)
+- [ ] clear all challenges in [Juice-shop](https://github.com/juice-shop/juice-shop) - For notes, click [here](https://github.com/refabr1k/owasp-juiceshop-solutions)
 
 
 ## TJnull HTB/Vulnhub list

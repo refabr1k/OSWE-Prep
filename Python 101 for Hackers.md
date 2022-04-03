@@ -5,14 +5,14 @@ Some collection of things I found most useful from this course.
 Basics
 1. [Comprehensions](#Comprehensions)
 2. [Inputs](#Inputs)
-3. [Read and Write](#Read%20and%20Write)
+3. [Read and Write](#Read-and-Write)
 4. [Lambdas](#Lambdas)
-5. [Other python Sorcery](#Other%20python%20Sorcery)
+5. [Other python Sorcery](#other-python-sorcery)
 
 Extending python
 
-6. [Python package manager](#Python%20package%20manager)
-7. [Python virtual environments](#Python%20virtual%20environments)
+6. [Python package manager](#Python-package-manager)
+7. [Python virtual environments](#Python-virtual-environments)
 8. [Sys](#Sys)
 9. [Requests](#Requests)
 10. [Pwntools](#Pwntools)
