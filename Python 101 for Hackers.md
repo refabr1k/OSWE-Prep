@@ -243,6 +243,107 @@ deactivate
 
 ## Sys
 
+```python
+import sys
+
+print(sys.version)
+# 3.10.2 (tags/v3.10.2:a58ebcc
+
+print(sys.executable)
+# C:\Users\Asd\AppData\Local\Programs\Python\Python310\python.exe
+
+print(sys.platform)
+# win32
+
+print(sys.path)
+# [C:\\Users\\Asd...]
+
+print(sys.modules)
+# {'sys': <module 'sys' (built-in)>, 'builtins': <module 'builtins' (built-in)>, '_frozen_importlib': <module '_frozen_importlib' (frozen)>, '_imp': <module '_imp' (built-in)>, '_thread': <module '_thread' (built-in)>, '_warnings': <module '_warnings' (built-in)>, '_weakref'
+
+
+# Progress status bar
+import time
+
+for i in range(0, 51):
+	time.sleep(0.001)
+	sys.stdout.write("{} [{}{}]\r".format(i, '#'*i, "."*(50-i)))
+	sys.stdout.flush()
+
+sys.stdout.write("\n")
+
+
+# Read parameters provided to your program
+if len(sys.argv) != 3:
+	print("[X] To run '{}' enter a username and password".format(sys.argv[0]))
+	sys.exit(777)
+
+# [X] To run '.\sys.py' enter a username and password
+	
+username = sys.argv[1]
+password = sys.argv[2]
+
+```
+
 ## Requests
+```python
+
+import requests
+
+x = requests.get('http://httpbin.org/get')
+
+# get all headers
+print(x.headers)
+
+# get only server header
+print(x.headers['Server'])
+
+# print status code
+print(x.status_code)
+
+if x.status_code == 200:
+	print("Success!")
+elif x.status_code == 404:
+	print("Not found!")
+
+# timing requests
+print(x.elapsed)
+
+# print cookies
+print(x.cookies)
+
+# Get params
+x = requests.get('http://httpbin.org/get', params={'id':'1'})
+print(x.url)
+
+
+# send files
+files = {'file': open('google.png', 'rb')}
+x = requests.post('http://httpbin.org/post', files=files)
+print(x.text)
+
+# basic auth
+x = requests.get('http://httpbin.org/get', auth=('username','password'))
+print(x.text)
+
+# don't verify SSL
+x = requests.get('https://expired.badssl.com', verify=False)
+
+# disallow redirects
+x = requests.get('https://github.com', allow_redirects=False)
+print(x.headers)
+
+# add cookies to Session so you dont have to keep typing it
+x = requests.Session()
+x.cookies.update({'a':'b'})
+print(x.get('http://httpbin.org/cookies').text)
+
+
+# Get image and write to file
+x = requests.get('https://about.google/assets-stories-2021/img/glue-google-color-logo.svg')
+with open('google2.svg', 'wb') as f:
+	f.write(x.content)
+```
+
 
 ## Pwntools
