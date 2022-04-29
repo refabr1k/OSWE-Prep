@@ -347,3 +347,82 @@ with open('google2.svg', 'wb') as f:
 
 
 ## Pwntools
+
+```python
+
+from pwn import *
+
+# ??
+print(cyclic(50))
+print(cyclic_find("laaa"))
+
+# ???
+print(shellcraft.sh())
+print(hexdump(asm(shellcraft.sh())))
+
+
+# Spawn a shell and make it interactive
+# p = process("/bin/sh")
+# p.sendline("echo hello;")
+# p.interactive()
+
+
+# r = remote("127.0.0.1", 1234)
+# r.sendline("hello!")
+# r.interactive()
+# r.close()
+
+
+# packing and unpacking numbers
+
+#pack numbers
+print(p32(0x13371337))
+
+# unpack
+print(hex(u32(p32(0x13371337))))
+
+
+l = ELF('/bin/bash')
+print(hex(l.address))
+print(hex(l.entry))
+
+print(hex(l.got['write']))
+print(hex(l.plt['write']))
+
+# search for a address in ELF file
+for address in l.search(b'/bin/sh\x00'):
+	print(hex(address))
+
+
+# search for a JMP ESP 
+print("You can find /bin/bash JMP ESP here:")
+print(hex(next(l.search(asm('jmp esp')))))
+
+
+# ROP function 
+r = ROP(l)
+print(r.rbx)
+
+# XOR "A" with "B"
+print(xor("A","B"))
+
+print(xor(xor("A","B"),"A"))
+
+
+#Base64
+print(b64e(b"test"))
+print(b64d(b"dGVzdA=="))
+
+#md5
+print(md5sumhex(b"hello"))
+
+#sha1
+print(sha1sumhex(b"hello"))
+
+# bits
+print(bits(b'a'))
+print(unbits([0, 1, 1, 0, 0, 0, 0, 1]))
+
+```
+
+
