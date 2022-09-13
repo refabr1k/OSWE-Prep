@@ -7,8 +7,12 @@
         "id": "f07c52283f0904e8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Portswigger Academy/SQL Injection/Union-Attacks.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Portswigger Academy/SQL Injection/Union-Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +88,15 @@
   },
   "active": "f07c52283f0904e8",
   "lastOpenFiles": [
+    "Portswigger Academy/SQL Injection/screens/2_find_column_with_text.png",
+    "Portswigger Academy/SQL Injection/Union-Attacks.md",
+    "SQL Injection/screens/union_attacks_find_columns.png.md",
     "Portswigger Academy/SQL Injection/Union-Attacks.md.md",
     "README.md",
     "Portswigger Academy/SQL Injection/3 Union attack to retrieve interesting data.md",
     "Portswigger Academy/SQL Injection/2 Finding columns with a useful data type.md",
     "Portswigger Academy/SQL Injection/1 Determining the number of columns.md",
     "Portswigger Academy/SQL Injection/screens/union_attacks_find_columns.png",
-    "Portswigger Academy/SQL Injection/screens/union_attacks_find_string_type.png",
-    "Python101 for Hackers/sha256 password cracking.md",
-    "Python101 for Hackers/ssh login bruteforcing.md",
-    "Python101 for Hackers/Course.md"
+    "Portswigger Academy/SQL Injection/screens/union_attacks_find_string_type.png"
   ]
 }
