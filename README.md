@@ -2,7 +2,7 @@
 Started this 'learning journal' to record things helpful for OSWE preparation.
 
 ## Python basics
-- [x] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! - [here](Python101%20for%20Hackers/Course.md)
+- [x] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! - [writeup](Python101%20for%20Hackers/Course.md)
 - [ ] [Python 201 for Hackers](https://academy.tcm-sec.com/p/python-201-for-hackers) - After basics.
 
 ## Portswigger Academy 
