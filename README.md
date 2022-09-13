@@ -11,7 +11,7 @@ Familiarizing the following concepts. At the same time, I try to solve these lab
 - [ ] [SQL Injection]()
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
 	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
-	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](../main/Portswigger%20Academy/SQL%Injection/Union-Attacks.md)
+	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](../blob/master/Portswigger%20Academy/SQL%Injection/Union-Attacks.md)
 	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
 - [ ] XSS
