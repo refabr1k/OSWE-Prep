@@ -2,16 +2,16 @@
 Started this 'learning journal' to record things helpful for OSWE preparation.
 
 ## Python basics
-- [ ] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! Click [here](Python101%20for%20Hackers/Course.md)
+- [x] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! Click [here](Python101%20for%20Hackers/Course.md)
 - [ ] [Python 201 for Hackers](https://academy.tcm-sec.com/p/python-201-for-hackers) - After basics.
 
 ## Portswigger Academy 
-Familiarizing the following concepts. At the same time, I set out on a challenge to clear the labs by automating exploitation using a language of choice (python)
+Familiarizing the following concepts. At the same time, I try to solve these labs by automating exploitation using a language of choice (python)
 [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 - [ ] [SQL Injection](https://portswigger.net/web-security/sql-injection)
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
 	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
-	- [ ] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - Scripts [here](SQL%20Injection/SQL%20injection%20UNION%20attacks.md)
+	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks)
 	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
 - [ ] XSS
@@ -38,7 +38,7 @@ https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBn
 - [ ] Zipper
 - [ ] Unattended
 - [ ] Help
-- [ ] Mango [Focus on creating your own Boolean Script]
+- [ ] Mango [Focus on creating own Boolean Script]
 - [ ] Schooled
 - [ ] Sink
 - [ ] Monitors
