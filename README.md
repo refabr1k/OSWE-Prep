@@ -6,7 +6,7 @@ Started this 'learning journal' to record things helpful for OSWE preparation.
 - [ ] [Python 201 for Hackers](https://academy.tcm-sec.com/p/python-201-for-hackers) - After basics.
 
 ## Portswigger Academy 
-Familiarizing the following concepts. At the same time, I try to solve these labs by automating exploitation using a language of choice (python)
+Familiarizing the following concepts. At the same time, I try to solve these labs by automating exploitation using a language of choice (python) if possible
 [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 - [ ] [SQL Injection]()
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
@@ -14,12 +14,23 @@ Familiarizing the following concepts. At the same time, I try to solve these lab
 	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](Portswigger%20Academy/SQL%20Injection/Union-Attacks.md)
 	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
-- [ ] XSS
-- [ ] LFI
-- [ ] RCE
-- [ ] SSTI
-- [ ] XXE
+	- [ ] [SQL injection with filter bypass via XML encoding](https://portswigger.net/web-security/sql-injection/lab-sql-injection-with-filter-bypass-via-xml-encoding)
+- [ ] [XSS](https://portswigger.net/web-security/cross-site-scripting)
+	- [ ] [Reflected XSS](https://portswigger.net/web-security/cross-site-scripting/reflected)
+	- [ ] [Stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored)
+	- [ ] [DOM XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based)
+	- [ ] [Exploiting XSS](https://portswigger.net/web-security/cross-site-scripting/exploiting)
+	- [ ] [XSS Contexts](https://portswigger.net/web-security/cross-site-scripting/contexts)
+	- [ ] \*[CSP](https://portswigger.net/web-security/cross-site-scripting/content-security-policy)
+	- [ ] \*[Dangling Markup Injection](https://portswigger.net/web-security/cross-site-scripting/dangling-markup)
+- [ ] [File Path Traversal](https://portswigger.net/web-security/file-path-traversal)
+- [ ] [Command Injection](https://portswigger.net/web-security/os-command-injection)
+- [ ] [SSTI](https://portswigger.net/web-security/server-side-template-injection)
+	- [ ] [Exploiting SSTI](https://portswigger.net/web-security/server-side-template-injection/exploiting)
+- [ ] [XXE](https://portswigger.net/web-security/xxe)
+- [ ] [Exploiting taint-flow vulnerabilities (source and sinks)](https://portswigger.net/web-security/dom-based)
 
+\* *to visit when theres time*
 
 ## OWASP Juice-shop
 Gotta finish what I started too long ago!
