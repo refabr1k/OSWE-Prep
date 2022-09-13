@@ -2,7 +2,7 @@
 Started this 'learning journal' to record things helpful for OSWE preparation.
 
 ## Python basics
-- [x] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! Click [here](Python101%20for%20Hackers/Course.md)
+- [x] [Python 101 for Hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) - Cyber mentor's python primer. Great stuff! - [here](Python101%20for%20Hackers/Course.md)
 - [ ] [Python 201 for Hackers](https://academy.tcm-sec.com/p/python-201-for-hackers) - After basics.
 
 ## Portswigger Academy 
@@ -11,7 +11,7 @@ Familiarizing the following concepts. At the same time, I try to solve these lab
 - [ ] [SQL Injection]()
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
 	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
-	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](../master/Portswigger%20Academy/SQL%Injection/Union-Attacks.md)
+	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](Portswigger%20Academy/SQL%Injection/Union-Attacks.md)
 	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
 - [ ] XSS
