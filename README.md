@@ -12,7 +12,7 @@ Familiarizing the following concepts. At the same time, I try to solve these lab
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
 	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
 	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](Portswigger%20Academy/SQL%20Injection/Union-Attacks.md)
-	- [ ] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
+	- [x] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database) - [writeup](Portswigger%20Academy/SQL%20Injection/Examine%20database.md)]()
 	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
 	- [ ] [SQL injection with filter bypass via XML encoding](https://portswigger.net/web-security/sql-injection/lab-sql-injection-with-filter-bypass-via-xml-encoding)
 - [ ] [XSS](https://portswigger.net/web-security/cross-site-scripting)
@@ -29,7 +29,7 @@ Familiarizing the following concepts. At the same time, I try to solve these lab
 	- [ ] [Exploiting SSTI](https://portswigger.net/web-security/server-side-template-injection/exploiting)
 - [ ] [XXE](https://portswigger.net/web-security/xxe)
 - [ ] [Exploiting taint-flow vulnerabilities (source and sinks)](https://portswigger.net/web-security/dom-based)
-
+0
 \* *to visit when theres time*
 
 ## OWASP Juice-shop

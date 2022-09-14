@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 295
   },
   "right": {
     "id": "1e7d79c7ea78b66b",
@@ -89,14 +89,14 @@
   "active": "f07c52283f0904e8",
   "lastOpenFiles": [
     "Portswigger Academy/SQL Injection/Union-Attacks.md",
-    "Portswigger Academy/SQL Injection/screens/2_find_column_with_text.png",
-    "SQL Injection/screens/union_attacks_find_columns.png.md",
-    "Portswigger Academy/SQL Injection/Union-Attacks.md.md",
     "README.md",
-    "Portswigger Academy/SQL Injection/3 Union attack to retrieve interesting data.md",
-    "Portswigger Academy/SQL Injection/2 Finding columns with a useful data type.md",
-    "Portswigger Academy/SQL Injection/1 Determining the number of columns.md",
-    "Portswigger Academy/SQL Injection/screens/union_attacks_find_columns.png",
-    "Portswigger Academy/SQL Injection/screens/union_attacks_find_string_type.png"
+    "Portswigger Academy/SQL Injection/Examine database.md",
+    "Python101 for Hackers/Course.md",
+    "Python101 for Hackers/ssh login bruteforcing.md",
+    "Python101 for Hackers/sha256 password cracking.md",
+    "Portswigger Academy/SQL Injection/screens/2_query_database_mysql_mssql.png",
+    "Portswigger Academy/SQL Injection/screens/1_query_database_oracle.png",
+    "Portswigger Academy/SQL Injection/screens/2_find_column_with_text.png",
+    "SQL Injection/screens/union_attacks_find_columns.png.md"
   ]
 }
