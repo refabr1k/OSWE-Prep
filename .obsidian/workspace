@@ -88,15 +88,15 @@
   },
   "active": "f07c52283f0904e8",
   "lastOpenFiles": [
-    "Portswigger Academy/SQL Injection/Union-Attacks.md",
-    "README.md",
-    "Portswigger Academy/SQL Injection/Examine database.md",
+    "Portswigger Academy/SQL Injection/Blind SQL Injection Attacks.md",
+    "Portswigger Academy/SQL Injection/screens/1_blind_sqli_conditional_resp.png",
     "Python101 for Hackers/Course.md",
-    "Python101 for Hackers/ssh login bruteforcing.md",
     "Python101 for Hackers/sha256 password cracking.md",
-    "Portswigger Academy/SQL Injection/screens/2_query_database_mysql_mssql.png",
-    "Portswigger Academy/SQL Injection/screens/1_query_database_oracle.png",
-    "Portswigger Academy/SQL Injection/screens/2_find_column_with_text.png",
-    "SQL Injection/screens/union_attacks_find_columns.png.md"
+    "Python101 for Hackers/ssh login bruteforcing.md",
+    "Portswigger Academy/SQL Injection/Blind SQLi/Untitled.md",
+    "README.md",
+    "Portswigger Academy/SQL Injection/Union-Attacks.md",
+    "Portswigger Academy/SQL Injection/Examine database.md",
+    "Portswigger Academy/SQL Injection/screens/2_query_database_mysql_mssql.png"
   ]
 }
