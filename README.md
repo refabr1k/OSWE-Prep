@@ -8,13 +8,13 @@ Started this 'learning journal' to record things helpful for OSWE preparation.
 ## Portswigger Academy 
 Familiarizing the following concepts. At the same time, I try to solve these labs by automating exploitation using a language of choice (python) if possible
 [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- [ ] [SQL Injection]()
+- [x] [SQL Injection]()
 	- [x] [Retrieving hidden data](https://portswigger.net/web-security/sql-injection#retrieving-hidden-data)
 	- [x] [Subverting application logic](https://portswigger.net/web-security/sql-injection#subverting-application-logic)
 	- [x] [SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks) - [writeup](Portswigger%20Academy/SQL%20Injection/Union-Attacks.md)
 	- [x] [Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database) - [writeup](Portswigger%20Academy/SQL%20Injection/Examine%20database.md)
-	- [ ] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
-	- [ ] [SQL injection with filter bypass via XML encoding](https://portswigger.net/web-security/sql-injection/lab-sql-injection-with-filter-bypass-via-xml-encoding)
+	- [x] [Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind) - [writeup](Portswigger%20Academy/SQL%20Injection/Blind%20SQL%20Injection%20Attacks.md)
+	- [x] [SQL injection with filter bypass via XML encoding](https://portswigger.net/web-security/sql-injection/lab-sql-injection-with-filter-bypass-via-xml-encoding)- [writeup](Portswigger%20Academy/SQL%20Injection/Filter%20bypass.md)
 - [ ] [XSS](https://portswigger.net/web-security/cross-site-scripting)
 	- [ ] [Reflected XSS](https://portswigger.net/web-security/cross-site-scripting/reflected)
 	- [ ] [Stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored)
